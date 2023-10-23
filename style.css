@@ -3,17 +3,96 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
-}
+ #intro 
+ {
+   background-color: #ede0d4;
+   background-repeat: round;
+ }
+ #about
+ {
+   background-color: #e6ccb2; 
+ }
+ #calltoaction
+ {
+   background-color: bisque;
+ }
+ #contact
+ {
+   background-color: #ddb892;
+ }
+ 
+ *{
+   padding: 0;
+   margin: 0;
+   }
+   
+   header
+   {
+     height: 60px;
+   }
+   header h1
+   {
+     font-size: 25px;
+     text-align: center;
+   }
+   header nav ul
+   {
+     display: flex;
+     margin-left: 70%;
+     list-style: none;
+   }
+   
+   header nav ul li
+   {
+     padding-left: 10%;
+   }
+   
+   header a
+   {
+     text-decoration: none;
+     color: brown;
+   }
+ 
+   section
+   {
+     height: 100vh;
+     border: 1px solid rosybrown;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .Container img
+   {
+     height: 250px;
+     border-radius: 50%;
+   }
+   
+   .Container h2
+   {
+     margin-top: 2%;
+     font-size: 3em;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+   footer
+   {
+     height: 45px;
+   }
+   footer nav ul
+   {
+     display: flex;
+     margin-left: 70%;
+     list-style: none;
+   }
+     
+   footer nav ul li
+   {
+     padding-left: 10%;
+   }
+     
+   footer a
+   {
+     text-decoration: none;
+     color: brown;
+   }
